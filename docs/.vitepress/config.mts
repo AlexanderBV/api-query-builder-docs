@@ -47,6 +47,7 @@ export default defineConfig({
       { text: 'Frontend', link: '/frontend/overview', activeMatch: '/frontend/' },
       { text: 'Referencia API', link: '/api/processor', activeMatch: '/api/' },
       { text: 'Operadores', link: '/api/operators' },
+      { text: '🤖 IA Skills', link: '/ai/skills', activeMatch: '/ai/' },
       {
         text: 'v1.0.0',
         items: [
@@ -94,6 +95,12 @@ export default defineConfig({
           { text: 'Recetas con React & TanStack', link: '/frontend/react' },
           { text: 'Recetas con Vue 3 & Inertia.js', link: '/frontend/vue-inertia' },
           { text: 'Manejo de Errores (HTTP 422)', link: '/frontend/error-handling' }
+        ]
+      },
+      {
+        text: '🤖 Inteligencia Artificial',
+        items: [
+          { text: 'Skills & Reglas para Agentes', link: '/ai/skills' }
         ]
       },
       {
