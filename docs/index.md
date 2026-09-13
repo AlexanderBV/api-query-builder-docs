@@ -16,10 +16,16 @@ hero:
       text: Catálogo de 23 Operadores ⚡
       link: /api/operators
     - theme: alt
+      text: 🤖 Skills para IA
+      link: /ai/skills
+    - theme: alt
       text: Ver en GitHub 📦
       link: https://github.com/AlexanderBV/api-query-builder
 
 features:
+  - icon: 🤖
+    title: AI Agent Skills & Rules Oficiales
+    details: Directivas listas para Cursor, Claude Code, Gemini y Antigravity. Pídele a tu IA que genere controladores, filtros y serialización frontend sin consultas N+1.
   - icon: 🚀
     title: De 60 líneas de código a una sola
     details: Comienza con una implementación básica de 1 línea y escala agregando filtros, relaciones o búsqueda con una sintaxis fluida y elegante.
